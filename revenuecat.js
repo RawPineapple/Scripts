@@ -13,7 +13,7 @@ hostname=api.revenuecat.com
 
 var body = JSON.parse($response.body)
 
-body['subscriber']['subscriptions']['grow_1y_128']['expires_date']="2099-10-01T09:22:47Z";
-body['subscriber']['entitlements']['grow.pro']['expires_date']="2099-10-01T09:22:47Z";
+body.subscriber.subscriptions.grow_1y_128.expires_date = "2099-10-01T09:22:47Z";
+body.subscriber.entitlements.['grow.pro'].expires_date= "2099-10-01T09:22:47Z";
 
 $done({body:JSON.stringify(body)})
