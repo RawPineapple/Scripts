@@ -3,7 +3,7 @@
 [rewrite_local]
 
 # ～ RevenueCat@ddgksf2013
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response https://raw.githubusercontent.com/RawPineapple/Scripts/main/revenuecat.js
 
 [mitm]
 
