@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetSmith.js
+https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/RawPineapple/Scripts/main/revenuecat.js?token=GHSAT0AAAAAACF6UUA4ZMHQ4FW2I3L6UNJMZIQGO3Q
 
 [mitm]
 
