@@ -18,4 +18,5 @@
 # > Weidian url thor.weidian.com
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ url reject
 
-hostname=hostname = clientaccess.10086.cn, thor.weidian.com, heic.alicdn.com, gw.alicdn.com
+
+hostname = clientaccess.10086.cn, thor.weidian.com, heic.alicdn.com, gw.alicdn.com
